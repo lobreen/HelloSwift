@@ -21,6 +21,14 @@ swift build -c debug
 .build/debug/HelloSwift
 ```
 
+## Testing
+
+```bash
+swift test
+```
+
+Uses the Swift Testing framework (`#expect`). The `helloWorld` test asserts that `HelloSwift.greeting()` returns `"Hello, world!"`.
+
 ## Project Structure
 
 ```
