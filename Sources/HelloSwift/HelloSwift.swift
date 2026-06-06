@@ -1,9 +1,10 @@
-// The Swift Programming Language
-// https://docs.swift.org/swift-book
-
 @main
 struct HelloSwift {
+    static func greeting() -> String {
+        "Hello, world!"
+    }
+
     static func main() {
-        print("Hello, world!")
+        print(greeting())
     }
 }
